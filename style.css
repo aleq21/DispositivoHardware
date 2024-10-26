@@ -34,26 +34,70 @@ nav ul li a {
     font-weight: bold;
 }
 
-
 main {
     padding-top: 10px;
     padding-left: 250px;
     padding-right: 250px;
 }
 
-.content1 {
+.section1{
     display: flex;
-    flex-direction: column;
+}
+
+.caja_gafas{
     justify-content: center;
 }
 
-.content1 img {
-    height: 400px;
-    width: 500px;
+.img_gafas {
+    height: 320px;
+    width: 450px;
 }
 
-.content1 span {
+.content1 {
+    margin-left: 50px;
+}
 
+.section2 {
+
+}
+
+#barra1 {
+    border: 1px solid lightgray;
+    width: 85%;
+}
+
+.caja_gafasAntiguas {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.img2 {
+    height: 80%;
+    width: 80%;
+}
+
+.caja_1section2{
+    display: flex;
+}
+
+.content2{
+    margin-left: 20px;
+}
+
+#content3{
+    width: 50%;
+}
+
+.google_glasses{
+    margin-left: 15px;
+    height: 280px;
+    width: 450px;
+}
+
+#cajaGafaSection2{
+    height: 268px;
+    width: 473px;
 }
 
 
