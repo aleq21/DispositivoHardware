@@ -100,7 +100,7 @@ main {
     width: 473px;
 }
 
-.contenedor_principal{
+.contenedor_principal {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -115,7 +115,7 @@ main {
     border-radius: 15px;
 }
 
-.contenido_principal{
+.contenido_principal {
     display: flex;
     justify-content: center;
 }
@@ -161,6 +161,11 @@ main {
 
 .video1 {
     max-width: 90%;
+}
+
+.section4 a {
+    color: cornflowerblue;
+    text-decoration: none;
 }
 
 footer {
