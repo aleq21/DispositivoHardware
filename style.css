@@ -42,7 +42,6 @@ nav ul li a {
 }
 
 main {
-    padding-top: 10px;
     padding-left: 250px;
     padding-right: 250px;
 }
@@ -64,9 +63,6 @@ main {
     margin-left: 50px;
 }
 
-.section2 {
-
-}
 
 #barra1 {
     border: 1px solid var(--color5);
@@ -133,7 +129,7 @@ main {
 
 .contenido_adicional {
     position: absolute;
-    top: 5px;
+    top: 0;
     left: 0;
     padding-bottom: 0;
     opacity: 0;
@@ -153,31 +149,48 @@ main {
     transform: scale(1.025);
 }
 
-.contenido_adicional img {
-    height: 230px;
-    width: 90%;
+#bateriaFunda {
+    padding-top: 5px;
+    width: 75%;
     margin: auto;
     display: block;
-    border-radius: 15px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+.contenido_adicional img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
 }
 
 .video1 {
+    width: 100%;
     height: 230px;
-    width: 90%;
+    object-fit: cover;
     margin: auto;
     display: block;
-    border-radius: 20px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
 }
 
 .contenido_adicional p {
-    margin-left: 5px;
-    margin-right: 5px;
-    bottom: 0;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .section4 a {
     color: var(--color6);
     text-decoration: none;
+}
+
+.section4 li {
+    list-style: circle;
+
 }
 
 footer {
