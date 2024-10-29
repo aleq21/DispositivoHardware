@@ -57,6 +57,7 @@ main {
 .img_gafas {
     height: 320px;
     width: 450px;
+    border-radius: 1%;
 }
 
 .content1 {
@@ -69,6 +70,10 @@ main {
     width: 85%;
 }
 
+.caja_1section2 div img {
+    border-radius: 1%;
+}
+
 .caja_gafasAntiguas {
     display: flex;
     justify-content: center;
@@ -78,6 +83,7 @@ main {
 .img2 {
     height: 80%;
     width: 80%;
+    border-radius: 1%;
 }
 
 .caja_1section2 {
@@ -96,11 +102,13 @@ main {
     margin-left: 15px;
     height: 280px;
     width: 450px;
+    border-radius: 1%;
 }
 
 #cajaGafaSection2 {
     height: 268px;
     width: 473px;
+    border-radius: 1%;
 }
 
 .contenedor_principal {
