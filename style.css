@@ -16,7 +16,7 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 3;
 }
 
 header h1 {
@@ -66,11 +66,11 @@ main {
     column-gap: 30px;
 }
 
-.caja_gafas {
+.caja-gafas {
     justify-content: center;
 }
 
-.img_gafas {
+.img-gafas {
     width: 32vw;
     height: 21vw;
 }
@@ -80,11 +80,11 @@ main {
     width: 85%;
 }
 
-.caja_1section2 div img {
+.caja-1section2 div img {
     border-radius: 1%;
 }
 
-.caja_gafasAntiguas {
+.caja-gafasAntiguas {
     display: flex;
     justify-content: center;
     position: relative;
@@ -96,13 +96,13 @@ main {
     border-radius: 1%;
 }
 
-.caja_1section2 {
+.caja-1section2 {
     display: grid;
     grid-auto-flow: column;
     column-gap: 30px;
 }
 
-.google_glasses {
+.google-glasses {
     margin-left: 15px;
     height: 280px;
     width: 450px;
@@ -115,7 +115,7 @@ main {
     border-radius: 1%;
 }
 
-.contenedor_principal {
+.contenedor-principal {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -135,7 +135,7 @@ main {
     overflow: hidden;
 }
 
-.contenido_principal {
+.contenido-principal {
     display: flex;
     justify-content: center;
 }
@@ -144,7 +144,7 @@ main {
     display: none;
 }
 
-.contenedor:hover .contenido_principal {
+.contenedor:hover .contenido-principal {
     display: none;
 }
 
@@ -188,14 +188,26 @@ main {
     padding-right: 25px;
 }
 
+.section3 p{
+    margin-top: 0;
+}
+
+.section4 h3{
+    margin-top: 0;
+}
+
+
 .section4 a {
     color: var(--color6);
     text-decoration: none;
 }
 
+.section4 ul {
+    margin-top: 0;
+}
+
 .section4 li {
     list-style: circle;
-
 }
 
 footer {
@@ -205,4 +217,9 @@ footer {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 12vw;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
 }
