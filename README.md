@@ -4,7 +4,7 @@
 
 ### Built by Alejandro Qiu
 
-Este web se ha desarrollado como tarea para la asigntura de Interacción Persona Ordenador. El tema tratado son los 
+Esta web se ha desarrollado como tarea para la asigntura de Interacción Persona Ordenador. El tema tratado son los 
 dispositivos hardware, en mi caso concreto, las Ray-Ban Meta.
 
 #### Capturas de pantalla de la web
