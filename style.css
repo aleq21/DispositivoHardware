@@ -14,6 +14,9 @@ header {
     background-color: var(--color1);
     color: var(--color2);
     font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 header h1 {
@@ -33,6 +36,9 @@ nav ul {
 nav ul li {
     display: inline-flex;
     margin: 0 15px;
+    :hover {
+        color: var(--color3);
+    }
 }
 
 nav ul li a {
@@ -41,13 +47,23 @@ nav ul li a {
     font-weight: bold;
 }
 
+
 main {
-    padding-left: 250px;
-    padding-right: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 17.3vw;
+
+    h1, h2, h3 {
+        width: 100%;
+        text-align: left;
+    }
 }
 
 .section1 {
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 30px;
 }
 
 .caja_gafas {
@@ -55,15 +71,9 @@ main {
 }
 
 .img_gafas {
-    height: 320px;
-    width: 450px;
-    border-radius: 1%;
+    width: 32vw;
+    height: 21vw;
 }
-
-.content1 {
-    margin-left: 50px;
-}
-
 
 #barra1 {
     border: 1px solid var(--color5);
@@ -87,15 +97,9 @@ main {
 }
 
 .caja_1section2 {
-    display: flex;
-}
-
-.content2 {
-    margin-left: 20px;
-}
-
-#content3 {
-    width: 50%;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 30px;
 }
 
 .google_glasses {
@@ -113,14 +117,15 @@ main {
 
 .contenedor_principal {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    padding-left: 0.4vw;
+    padding-right: 0.4vw;
 }
 
 .contenedor {
-    width: 450px;
-    height: 60px;
+    width: 45%;
+    height: fit-content;
     border: 1px solid var(--color1);
     margin-bottom: 10px;
     border-radius: 15px;
@@ -135,40 +140,32 @@ main {
     justify-content: center;
 }
 
-.contenido_adicional {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-bottom: 0;
-    opacity: 0;
-    overflow: hidden;
+.contenido-adicional {
+    display: none;
 }
 
 .contenedor:hover .contenido_principal {
-    opacity: 0;
+    display: none;
 }
 
-.contenedor:hover .contenido_adicional {
-    opacity: 1;
+.contenedor:hover .contenido-adicional {
+    display: block;
 }
 
 .contenedor:hover {
-    height: 350px;
     transform: scale(1.025);
 }
 
-#bateriaFunda {
+#bateria-funda {
     padding-top: 5px;
-    width: 75%;
     margin: auto;
     display: block;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
 }
 
-.contenido_adicional img {
+.contenido-adicional img {
     width: 100%;
-    height: 230px;
     object-fit: cover;
     margin: auto;
     display: block;
@@ -186,7 +183,7 @@ main {
     border-top-right-radius: 13px;
 }
 
-.contenido_adicional p {
+.contenido-adicional p {
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -207,5 +204,5 @@ footer {
     color: var(--color2);
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 20px;
+    padding-left: 12vw;
 }
