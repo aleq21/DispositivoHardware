@@ -53,6 +53,7 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 0 17.3vw;
+    text-wrap: pretty;
 
     h1, h2, h3 {
         width: 100%;
@@ -100,6 +101,7 @@ main {
     display: grid;
     grid-auto-flow: column;
     column-gap: 30px;
+    align-items: center;
 }
 
 .google-glasses {
@@ -121,6 +123,7 @@ main {
     flex-wrap: wrap;
     padding-left: 0.4vw;
     padding-right: 0.4vw;
+
 }
 
 .contenedor {
@@ -188,7 +191,7 @@ main {
     padding-right: 25px;
 }
 
-.section3 p {
+#p-personalizado {
     margin-top: 0;
 }
 
